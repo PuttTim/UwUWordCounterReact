@@ -1,16 +1,21 @@
 import React from 'react'
 
-import { Box, Card, CardContent, Typography } from '@mui/material'
+import { Box, Card, CardContent, Paper, Typography } from '@mui/material'
 
 const CounterCard = ({ wordArray, charArray }) => {
     return (
         <>
-            <Card variant="outlined">
+            <Paper elevation={2}>
                 <CardContent>
-                    <Typography fontWeight="Bold" fontSize={16}>Word Count: {wordArray.length}</Typography>
-                    <Typography>Character Count: {charArray.length}</Typography>
+                    <Typography fontWeight="Bold" fontSize="1.5em">
+                        Word Count: {wordArray.length}
+                    </Typography>
+                    <Typography fontWeight="Bold" fontSize="1.5em">
+                        Character Count: {charArray.length}
+                    </Typography>
                 </CardContent>
-            </Card>
+            </Paper>
+           
         </>
     )
 }

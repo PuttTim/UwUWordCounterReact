@@ -1,14 +1,13 @@
-import React from 'react'
-import { Button } from '@mui/material/Button'
+import { useState } from 'react'
+import { Box, Button } from '@mui/material'
 
 const UwUButton = () => {
-
-    const [UwUText, setUwUText]
+    const [UwUText, setUwUText] = useState('')
 
     return (
-        <>
-            <Button variant="contained" onClick={}>UwU My text</Button>
-        </>
+        <Box>
+            <Button variant="contained" fullWidth>UwU My text</Button>
+        </Box>
     )
 }
 

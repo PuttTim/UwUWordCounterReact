@@ -1,10 +1,16 @@
-import { Box } from '@mui/material'
+import { Box, Typography } from '@mui/material'
 import React from 'react'
 
 export const header = () => {
     return (
-        <Box>
-            <h1>UwU Word Counter</h1>
+        <Box style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+        }}>
+            <Typography fontWeight="Bold" fontSize="2.5em">
+                UwU Word Counter
+            </Typography>
         </Box>
     )
 }
