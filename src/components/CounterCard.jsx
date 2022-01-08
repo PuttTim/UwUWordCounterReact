@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Box, Card, CardContent, Paper, Typography } from '@mui/material'
+import { CardContent, Paper, Typography } from '@mui/material'
 
 const CounterCard = ({ wordArray, charArray }) => {
     return (
@@ -15,7 +15,6 @@ const CounterCard = ({ wordArray, charArray }) => {
                     </Typography>
                 </CardContent>
             </Paper>
-           
         </>
     )
 }

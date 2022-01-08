@@ -5,9 +5,10 @@ const textInput = props => {
         <Box>
             <TextField
                 multiline
-                placeholder="Enter text to be uwu-fied or counted here"
+                placeholder="Enter text to be uwu-ified or counted here"
                 variant="outlined"
-                minRows={20}
+                minRows={10}
+                maxRows={20}
                 fullWidth
                 onChange={props.onChange.bind(props)}
             />
