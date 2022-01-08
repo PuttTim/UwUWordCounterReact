@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import {
     Box,
     Button,
@@ -26,7 +26,9 @@ const UwUDisplay = ({ UwUText }) => {
             <Button
                 fullWidth
                 variant="contained"
-                onClick={() => setUwUFlag(!uwuFlag)}>
+                onClick={() => {
+                    setUwUFlag(!uwuFlag)
+                }}>
                 {uwuFlag ? "oh god i've made a mistake" : 'uwu my text'}
             </Button>
 

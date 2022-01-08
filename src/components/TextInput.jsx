@@ -8,7 +8,7 @@ const textInput = props => {
                 placeholder="Enter text to be uwu-ified or counted here"
                 variant="outlined"
                 minRows={10}
-                maxRows={20}
+                maxRows={15}
                 fullWidth
                 onChange={props.onChange.bind(props)}
             />
